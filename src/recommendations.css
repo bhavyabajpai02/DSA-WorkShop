@@ -1,0 +1,6 @@
+.recommendation-filters{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:0 0 15px;padding:12px;border:1px solid #30343c;border-radius:9px;background:#1a1d22}
+.recommendation-filters select{background:#282c33;border:1px solid #3a4049;border-radius:7px;color:#bdc3cc;padding:8px 9px;font-size:10px;max-width:220px}
+.recommendation-external-url{display:flex;align-items:center;gap:7px;max-width:100%;overflow-wrap:anywhere;color:#d9a35b;font-size:10px;line-height:1.5}
+.recommendation-external-url svg{flex-shrink:0}
+.state-already_added{background:#30343b;color:#b9c1cb}
+@media(max-width:760px){.recommendation-filters select{flex:1;min-width:140px;max-width:none}.recommendation-filters .result-count{margin-left:0}}

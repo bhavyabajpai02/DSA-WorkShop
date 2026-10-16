@@ -1,0 +1,31 @@
+.practice-page{display:grid;gap:15px}
+.practice-page>.page-heading{margin-bottom:0}
+.practice-overview{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:11px 14px;border:1px solid #343942;border-radius:9px;background:#202329;color:#919aa5;font-size:10px}
+.practice-overview>span:first-child{display:flex;align-items:center;gap:7px;color:#e8b66e;font-weight:600}
+.practice-section{padding:15px 17px;border:1px solid #343942;border-radius:12px;background:#202329}
+.practice-section-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+.practice-section-heading h2{margin:0 0 4px;color:#e5e7eb;font:600 15px 'Space Grotesk',sans-serif}
+.practice-section-heading p{margin:0;color:#858e99;font-size:10px;line-height:1.5}
+.practice-section-heading>span{min-width:27px;padding:5px 8px;border-radius:7px;background:#2d3037;color:#e4b36f;text-align:center;font-size:10px}
+.practice-items{display:grid;gap:8px}
+.practice-item{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px;border:1px solid #343942;border-radius:9px;background:#1b1e23}
+.practice-item-main{min-width:0}
+.practice-item-main>a{display:inline-flex;align-items:center;gap:7px;max-width:100%;color:#e0e3e7;font-size:12px;font-weight:600;line-height:1.5;overflow-wrap:anywhere}
+.practice-item-main>a:hover{color:#f0bd75}
+.practice-item-main>a svg{flex:none;color:#929aa5}
+.practice-item-meta{display:flex;flex-wrap:wrap;gap:6px 11px;margin-top:6px;color:#8d96a1;font-size:9px}
+.practice-item-actions{display:flex;flex:none;gap:7px}
+.practice-item-actions .btn,.practice-item>.btn{padding:8px 10px;font-size:10px}
+.practice-empty{padding:12px;border:1px dashed #393f48;border-radius:8px;color:#777f8a;font-size:10px}
+.review-history-section{margin-top:1px}
+.review-history-list{display:grid}
+.review-history-list article{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;border-top:1px solid #30343c}
+.review-history-list article>div{display:grid;gap:4px}
+.review-history-list strong{color:#d8dce1;font-size:10px}
+.review-history-list article span,.review-history-list article small{color:#88919d;font-size:9px}
+.review-modal .question-form>.error-banner{display:flex;align-items:flex-start;gap:8px;color:#e5a0a0;font-size:10px;line-height:1.5}
+.review-modal .question-form>.error-banner svg{flex:none}
+.review-modal .question-form label>small{display:block;color:#8d96a1;font-size:9px;line-height:1.55;margin-top:5px}
+.review-modal .modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:7px}
+@media(max-width:760px){.practice-page>.page-heading{align-items:flex-start;flex-direction:column}.practice-page>.page-heading>.btn{width:100%}.practice-overview{align-items:flex-start;flex-direction:column}.practice-section{padding:13px}.practice-item{align-items:stretch;flex-direction:column;gap:10px}.practice-item>.btn{width:100%}.practice-item-actions .btn{flex:1}.review-history-list article{align-items:flex-start;flex-direction:column;gap:6px}}
+@media(max-width:420px){.practice-item-actions{flex-direction:column}.practice-item-actions .btn{width:100%}.review-modal .modal-actions{flex-direction:column-reverse}.review-modal .modal-actions .btn{width:100%}}
