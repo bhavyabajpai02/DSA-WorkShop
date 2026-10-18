@@ -2,6 +2,8 @@
 
 A React + TypeScript question manager with Supabase authentication and PostgreSQL persistence. The workspace includes question management, external recommendations, a progress dashboard, and profile preferences.
 
+**Live app:** [Open the deployed application](https://dsa-work-shop-r3j7-1veiqm2uv-bhavyabajpai02s-projects.vercel.app/)
+
 ## Features implemented
 
 - Supabase email/password sign-in (single-user workspace; no public sign-up UI).
